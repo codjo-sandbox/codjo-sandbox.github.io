@@ -1,0 +1,24 @@
+--- 
+- 
+  description: " IHM permettant de faire la stabilisation du framework"
+  name: codjo-tools-farow 
+
+- 
+  description: "FAst Release On Wednesday IHM permettant de faire la stabilisation du framework"
+  name: codjo-tools-farow 
+- 
+  description: "IHM permettant de gérer le cycle de vie des brins."
+  name: codjo-tools-pyp 
+- 
+  description: "Outil permettant de vérifier la cohérence du fichier livraison-sql.txt"
+  name: codjo-tools-sqltester
+- 
+  description: "Plugin IntelliJ permettant de lancer l'IHM tokio viewer."
+  name: codjo-tools-tokio-viewer
+- 
+  description: "Plugin IntelliJ d'enregistrer les test IHM."
+  name:  codjo-tools-event-recorder
+- 
+  description: "Plugin IntelliJ permettant d'exécuter des test release depuis IntelliJ"
+  name:  codjo-tools-test-runner
+
