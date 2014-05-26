@@ -1,8 +1,10 @@
-- name: Tom Preston-Werner
+--- 
+- 
   github: mojombo
-
-- name: Parker Moore
+  name: "Tom Preston-Werner"
+- 
   github: parkr
-
-- name: Liu Fengyun
+  name: "Parker Moore"
+- 
   github: liufengyun
+  name: "Liu Fengyun"
