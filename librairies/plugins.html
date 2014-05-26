@@ -30,7 +30,16 @@
     <div class="wrapper">
 
       <section>
-		<h3>Libraries</h3>
+		<h3>Maven 2 Plugins</h3>
+		<ul>
+		{% for plugin in site.data.plugins %}
+		  <li>
+			<a href="https://github.com/codjo/{{ plugin.name }}/wiki">
+			  {{ plugin.name }}
+			</a>: {{ plugin.description }}
+		  </li>
+		{% endfor %}
+		</ul>
 	  </section>
 			</div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
