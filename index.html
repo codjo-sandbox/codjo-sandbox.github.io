@@ -39,6 +39,16 @@
         <h3><a href="librairies">Liste des librairies internes</a></h3>
         <h3><a href="librairies">Liste des plugins maven</a></h3>
 		-->
+		
+		<ul>
+		{% for member in site.data.members %}
+		  <li>
+			<a href="https://github.com/{{ member.github }}">
+			  {{ member.name }}
+			</a>
+		  </li>
+		{% endfor %}
+		</ul>
       </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
