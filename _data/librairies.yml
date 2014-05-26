@@ -1,1 +1,1 @@
-- name: codjo-administration  description: Cette librairie permet de gérer les serveurs applicatifs.- name: codjo-ads  description: Surcouche AGF de ADS.- name: codjo-agent  description: Surcouche de JADE.  
+---- name: codjo-administration  description: Cette librairie permet de gérer les serveurs applicatifs.- name: codjo-ads  description: Surcouche AGF de ADS.- name: codjo-agent  description: Surcouche de JADE.---
