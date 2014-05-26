@@ -1,6 +1,6 @@
 --- 
 - 
-  description: "Cette librairie permet de g�rer les serveurs applicatifs."
+  description: "Cette librairie permet de gerer les serveurs applicatifs."
   name: codjo-administration
 - 
   description: "Surcouche AGF de ADS."
