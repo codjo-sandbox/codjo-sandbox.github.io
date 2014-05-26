@@ -1,6 +1,6 @@
 --- 
 - 
-  description: "Cette librairie permet de gerer les serveurs applicatifs."
+  description: "Cette librairie permet de gérer les serveurs applicatifs."
   name: codjo-administration
 - 
   description: "Surcouche AGF de ADS."
@@ -8,3 +8,120 @@
 - 
   description: "Surcouche de JADE."
   name: codjo-agent
+- 
+  description: "Module pour ajouter des aspects avant ou après l'exécution d'un traitement."
+  name: codjo-aspect-
+- 
+  description: "librairie d'export"
+  name: codjo-broadcast
+- 
+  description: "Librairie permetant de piloter confluence."
+  name: codjo-confluence
+- 
+  description: "Librairie de gestion des plan d'intégration"
+  name: codjo-control
+- 
+  description: "Librarie de cryptographie."
+  name: codjo-crypto
+- 
+  description: "Support multi-base du framework."
+  name: codjo-database
+- 
+  description: "Obsolète Librairie de comparaison de base de données."
+  name: codjo-database-analyse
+- 
+  description: "Generateur multi-fonction."
+  name: codjo-datagen
+- 
+  description: "Librairie pour lancer des traitements."
+  name: codjo-data-process
+- 
+  description: "Librairie permettant d'évaluer des expressions"
+  name: codjo-expression
+- 
+  description: "Librairie Utilitaire pour faciliter l'ecriture des tests JDBC."
+  name: codjo-fake-db
+- 
+  description: "Cette librairie est une couche intermédiaire entre Globs et Mad."
+  name: codjo-globs
+- 
+  description: "Ensemble de classe graphiques generiques."
+  name: codjo-gui-toolkit
+- 
+  description: "Librairie permettant de gérer l'audit des tables."
+  name: codjo-historic-audit
+- 
+  description: "Cette librairie contient les classes utiles pour gérer l'internationalisation."
+  name: codjo-i18n
+- 
+  description: "Cette librairie permet d'importer des fichiers plats dans une table BD."
+  name: codjo-imports
+- 
+  description: "Librairie wrappant le driver sybase jconnect"
+  name: codjo-jconnect
+- 
+  description: "Cette librairie gère les logs."
+  name: codjo-logging
+- 
+  description: "Regroupement des differentes librairies permettant de faire parler un client Swing a un Serveur"
+  name: codjo-mad
+- 
+  description: "Permet de faire executer des tâches sur le client."
+  name: codjo-notification
+- 
+  description: "Librairie servant de base aux ontologies."
+  name: codjo-ontology
+- 
+  description: "librairie de définition des socles et plugin AGF"
+  name: codjo-plugin
+- 
+  description: "Gestion générique de référentiels."
+  name: codjo-referential
+- 
+  description: "Classes utilitaires pour la réflection"
+  name: codjo-reflect
+- 
+  description: "Librairie pour les tests release."
+  name: codjo-release-test
+- 
+  description: "Cette librairie permet de gérer les permissions/authentification des utilisateurs."
+  name: codjo-security
+- 
+  description: "Librairie de segmentation."
+  name: codjo-segmentation
+- 
+  description: "Transfert de table à table."
+  name: codjo-shipment
+- 
+  description: "Ensemble de classe pour le monde SQL."
+  name: codjo-sql
+- 
+  description: "Librairie definissant le socle Plugin pour les applications client/serveur"
+  name: codjo-standalone-client
+- 
+  description: "Librairie commune pour clients lourds."
+  name: codjo-standalone-common
+- 
+  description: "Cette librairie permet de faire des pool de thread."
+  name: codjo-taskpool
+- 
+  description: "Regroupement des différentes librairies permettant de faire des tests simplement."
+  name: codjo-test
+- 
+  description: "Permet de gérer la base de données (input/output) dans les phases d'écriture des tests."
+  name: codjo-tokio
+- 
+  description: "Ensemble de classes utilitaires."
+  name: codjo-util
+- 
+  description: "Module pour remplacer des parties variables dans une String"
+  name: codjo-variable
+- 
+  description: "Librairie permetant de publier un agent en tant que service web."
+  name: codjo-webservices
+- 
+  description: "Librairie permettant de réguler des traitements sur le serveur."
+  name: codjo-workflow
+- 
+  description: "Cette librairie gère le xml."
+  name: codjo-xml
