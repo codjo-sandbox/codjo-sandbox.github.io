@@ -1,1 +1,39 @@
-----<!doctype html><html>  <head>    <meta charset="utf-8">    <meta http-equiv="X-UA-Compatible" content="chrome=1">    <title>Codjo by codjo</title>    <link rel="stylesheet" href="stylesheets/styles.css">    <link rel="stylesheet" href="stylesheets/pygment_trac.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>    <script src="javascripts/respond.js"></script>    <!--[if lt IE 9]>      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->    <!--[if lt IE 8]>    <link rel="stylesheet" href="stylesheets/ie.css">    <![endif]-->    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">  </head>  <body>      <div id="header">        <nav>          <li class="fork"><a href="https://github.com/codjo">View On GitHub</a></li>        </nav>      </div><!-- end header -->    <div class="wrapper">      <section>		<h3>Libraries</h3>		<ul>		{% for library in site.data.librairies %}		  <li>			<a href="https://github.com/codjo/{{ library.name }}/wiki">			  {{ library.name }}			</a>: {{ library.description }}		  </li>		{% endfor %}		</ul>			  </section>			</div>    <!--[if !IE]><script>fixScale(document);</script><![endif]-->      </body></html>
+--
+--
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Codjo by codjo</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/codjo">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+		<h3>Libraries</h3>
+	  </section>
+			</div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
