@@ -31,9 +31,17 @@
 
       <section>
 		<h3>Libraries</h3>
-
-			  </section>
-			</div>
+		<ul>
+		{% for library in site.data.librairies %}
+		  <li>
+			<a href="https://github.com/codjo/{{ library.name }}/wiki">
+			  {{ library.name }}
+			</a>: {{ library.description }}
+		  </li>
+		{% endfor %}
+		</ul>
+		</section>
+   </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
