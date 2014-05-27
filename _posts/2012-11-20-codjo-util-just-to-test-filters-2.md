@@ -10,3 +10,18 @@ A deadlock sometimes happened while doing these steps in an application :
 
 ## Description
 The deadlock has been fixed by managing GUI lock/unlock in the Event Dispatch Thread (which removes the need of synchronization).
+
+## Example
+
+```java
+    private static void closeStream(final OutputStream source) {
+        if (source != null) {
+            try {
+                source.close();
+            }
+            catch (IOException ex) {
+                // Normalement ça passe
+            }
+        }
+    }
+```
