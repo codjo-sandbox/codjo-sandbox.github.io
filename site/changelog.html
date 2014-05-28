@@ -34,14 +34,21 @@
 		<h3>Changelog</h3>
 		
 <ul>
-  {% for post in site.posts %}
-     <!--  {% if post.tags contains "framework-2-57" %} -->
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-   <!--  {% endif %} -->
+  {% for fmk in site.framework-versions %}
+		<li>
+		  {{ fmk.version }}</a>
+		</li> 
+<ul>		
+	  {% for post in site.posts %}
+		{% if post.tags contains fmk.version %}
+		<li>
+		  <a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	   {% endif %}
+	  {% endfor %}
+	  </ul>
   {% endfor %}
-</ul>
+  </ul>
 
 </div>
 
