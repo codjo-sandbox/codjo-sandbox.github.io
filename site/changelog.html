@@ -35,6 +35,13 @@
 	<ul>	
             {% for fmk in site.data.framework-versions %}
 		<li>{{ fmk.version }}</li> 
+		<ul>		
+	            {% for post in site.posts %}
+		       {% if post.tags contains fmk.version %}
+		         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	               {% endif %}
+	            {% endfor %}
+	        </ul>
             {% endfor %}
         </ul>
 
