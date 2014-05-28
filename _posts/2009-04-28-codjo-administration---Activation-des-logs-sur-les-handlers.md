@@ -3,9 +3,9 @@ layout: post
 title: agf-administration - Activation des logs sur les handlers
 tags: [framework-1-93,codjo-administration,hot-topics]
 ---
-Le plugin ```AdministrationServerPlugin``` offre la possibilitÃ© de configurer l'audit des ```handlers```.
+Le plugin ```AdministrationServerPlugin``` offre la possibilité de configurer l'audit des ```handlers```.
 
-Cette configuration est rendue possible des deux maniÃ¨res suivantes :
+Cette configuration est rendue possible des deux manières suivantes :
 * server-config.properties :
 ```xml
 AdministrationService.recordHandlerStatistics = true
