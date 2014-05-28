@@ -33,7 +33,9 @@
       <section>
 		<h3>Changelog</h3>
 	<ul>	
-
+            {% for fmk in site.framework-versions %}
+		<li>{{ fmk.version }}</li> 
+            {% endfor %}
         </ul>
 
 		<br>
