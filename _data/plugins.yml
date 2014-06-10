@@ -1,8 +1,5 @@
 --- 
 - 
-  description: "Cette librairie permet de gérer les serveurs applicatifs."
-  name: codjo-administration
-- 
   description: "Librairie commune aux plugins Maven2."
   name: codjo-maven-common
 - 
