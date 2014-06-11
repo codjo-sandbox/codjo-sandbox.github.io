@@ -21,40 +21,41 @@ La baslise step a gardée son comportement d'origine, et a été étendue, elle 
 <th>Valeur de l'attribut step_for \</th><th>valeurs possible du chemin contenu dans ControlJobRequest</th></tr>
 <tr>
 <td> null </td>
-<td> * \ </td>
+<td> * </td>
 </tr>
 <tr>
 <td> * </td>
-<td> null \ </td>
+<td> null </td>
 </tr>
 <tr>
 <td> all </td>
-<td> * \ </td>
+<td> * </td>
 </tr>
 <tr>
-<td> user \ </td>
-<td> _user_,&nbsp; _user.add_, _user.update_ \ </td>
+<td> user </td>
+<td> _user_,&nbsp; _user.add_, _user.update_ </td>
 </tr>
 <tr>
-<td> user.add \ </td>
-<td> _user_, _user.add_\ </td>
+<td> user.add </td>
+<td> _user_, _user.add_</td>
 </tr>
 <tr>
 <td> user.update </td>
-<td> _user_, _user.update_ \ </td>
+<td> _user_, _user.update_ </td>
 </tr>
 <tr>
 <td> batch </td>
-<td> batch \ </td>
+<td> batch </td>
 </tr>
 <tr>
-<td style:color=#ff6600>etapeX \ </td>
-<td style:color=#ff6600>etape1/etape2/etape3 </td>
+<td><font color="#ff6600">etapeX</font></td>
+<td><font color="#ff6600">etape1/etape2/etape3</font></td>
 </tr>
 <tr>
-<td style:color=#ff6600>etape2/etape3 </td>
-<td style:color=#ff6600>etape1/etape2/etape3/etape4/etape5</td>
+<td><font color="#ff6600">etape2/etape3</font> </td>
+<td><font color="#ff6600">etape1/etape2/etape3/etape4/etape5</font></td>
 </tr>
 </table>
-** _\** = n'importe quel valeur._
-* _les virgule dénotent différentes possibilitées._\
+NB :
+** * = n'importe quel valeur.
+** _les virgule dénotent différentes possibilitées._
