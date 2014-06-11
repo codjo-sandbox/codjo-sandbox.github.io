@@ -48,12 +48,12 @@ La baslise step a gardée son comportement d'origine, et a été étendue, elle 
 <td> batch \ </td>
 </tr>
 <tr>
-<td> {color:#ff6600}etapeX{color} \ </td>
-<td> {color:#ff6600}etape1/etape2/etape3{color} </td>
+<td style:color=#ff6600>etapeX \ </td>
+<td style:color=#ff6600>etape1/etape2/etape3 </td>
 </tr>
 <tr>
-<td> {color:#ff6600}etape2/etape3{color} </td>
-<td> {color:#ff6600}etape1/etape2/etape3/etape4/etape5{color} </td>
+<td style:color=#ff6600>etape2/etape3 </td>
+<td style:color=#ff6600>etape1/etape2/etape3/etape4/etape5</td>
 </tr>
 </table>
 ** _\** = n'importe quel valeur._
