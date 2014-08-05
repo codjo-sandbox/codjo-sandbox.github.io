@@ -1,0 +1,63 @@
+---
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Codjo framework - How to modify documentation</title>
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/codjo">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+		<h3>Processes > How to modify documentation</h3>
+		<br>
+		<p> Documentation is available on each github wiki on each library</p>
+		<p> As there is no pull request mechanism for wiki repositories, we need to do it manually</p>
+
+		<p> Here is the process to modify the documentation. 
+		    <ul>
+			    <li>Fork the library. for example: <code>codjo-release-test</code></li>
+			    <li>Create the wiki on the newly forked repository and create a new dummy page to instanciate the <code>codjo-release-test.wiki</code> repository</li>
+			    <li>Clone the wiki repository on your local workstation.
+				<pre><code>git clone https://github.com/codjo-sandbox/codjo-release-test.wiki.git</code></pre>
+				</li>
+			    <li>Using command line, go in the new directory and add a remote on codjo's wiki  
+					<pre><code>git remote add codjo https://github.com/codjo/codjo-release-test.wiki.git</code></pre>
+				</li>				
+			    <li>Using command line, update the remote branch codjo  <pre><code>git pull codjo master</code></pre></li>
+			    <li>Do your modification on the documentation, using the github GUI or on your local files</li>
+			    <li>Test your modifications, commit and push your modifications on the forked repository<pre><code>git push origin</code></pre></li>
+			    <li>Check your modifications on the forked wiki</li>
+			    <li>If everything is OK, update from origin <pre><code>git pull origin </code></pre> then update the remote branch codjo, change your connection in your netrc file, commit and push your modifications<pre><code>git push codjo master</code></pre></li>
+			</ul>
+		</p>
+		
+		<br>
+		<p><a href="../index.html">>>Home</a></p>		
+	  </section>
+			</div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
