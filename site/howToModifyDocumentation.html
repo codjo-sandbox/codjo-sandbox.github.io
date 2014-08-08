@@ -35,9 +35,9 @@
 		<p> Documentation is available on each github wiki on each library</p>
 		<p> As there is no pull request mechanism for wiki repositories, we need to do it manually</p>
 
-		<p> Here is the process to modify the documentation. 
+		<p> Here is the process to modify the documentation (We use <code>codjo-release-test</code> repository and <code>codjo-sandbox</code> user as a sample).		
 		    <ul>
-			    <li>Fork the library. for example: <code>codjo-release-test</code></li>
+			    <li>Fork the library in Github. for example: <code>codjo-release-test</code></li>
 			    <li>Create the wiki on the newly forked repository and create a new dummy page to instanciate the <code>codjo-release-test.wiki</code> repository</li>
 			    <li>Clone the wiki repository on your local workstation.
 				<pre><code>git clone https://github.com/codjo-sandbox/codjo-release-test.wiki.git</code></pre>
@@ -49,6 +49,7 @@
 			    <li>Do your modification on the documentation, using the github GUI or on your local files</li>
 			    <li>Test your modifications, commit and push your modifications on the forked repository<pre><code>git push origin</code></pre></li>
 			    <li>Check your modifications on the forked wiki</li>
+			    <li>Make an issue on the repository <code>codjo/codjo-release-test</code> to ask codjo administrators to apply modifications on the wiki on the <code>codjo/codjo-release-test.wiki</code> github repository </li>				
 			    <li>If everything is OK, update from origin <pre><code>git pull origin </code></pre> then update the remote branch codjo, change your connection in your netrc file, commit and push your modifications<pre><code>git push codjo master</code></pre></li>
 			</ul>
 		</p>
